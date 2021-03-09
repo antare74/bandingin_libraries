@@ -18,7 +18,7 @@
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             @if(count($libraries) > 0)
                 @foreach($libraries as $library)
-                    <div class="row text-center">
+                    <div class="row text-center  bg-green-600 pb-5">
                         <div class="col-md-12">
                             <h1>{{ $library->name }}</h1>
                         </div>
